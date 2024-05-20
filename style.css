@@ -1,0 +1,509 @@
+body{
+    background-color: rgb(22, 2, 30);
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar{
+    position:sticky;
+    width: 100%;
+    font-family: Abril Fatface;
+    background-color: rgb(22, 2, 30) !important;
+    min-height: 3rem;
+    padding: .2rem;
+    border-bottom: .1rem solid rgb(160, 134, 134);
+}
+main{
+    border-left: .1rem solid rgb(160, 134, 134);
+    border-right: .1rem solid rgb(160, 134, 134);
+}
+ 
+nav div a img{
+    height: 3.5rem;
+    padding: 0rem 1rem 0rem .1rem;
+}
+
+.navbar .brand{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.navbar .nav-link{
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 5rem !important;
+}
+
+.navbar .d-flex .form-control{
+    background-color: rgb(148, 184, 213);
+    width: 20rem;
+    height: 2.3rem;
+    padding-left: 3rem;
+}
+
+.navbar .container-fluid .collapse #icon{
+    color:white;
+    font-size: 1.7rem;
+    margin-right: 3rem;
+}
+
+.navbar .container-fluid .navbar-toggler{
+    background-color: rgb(151, 190, 163);
+
+}
+.searchbar{
+    position: relative;
+    width: 20rem;
+}
+
+@media only screen and (max-width: 460px) {
+    /* For mobile phones: */
+    .navbar .d-flex .form-control{
+      width: 15rem;
+    }
+    .micro{
+        position: absolute;
+        right: 5rem !important;
+    }
+    .info .name{
+        padding: 0px !important;
+    }
+    .release-row{
+        margin-bottom: 2rem !important;
+    }
+    .space{
+        height: 8rem;
+    }
+}
+
+.magini{
+    position: absolute;
+    left: .5rem;
+    padding: .2rem;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.micro{
+    position: absolute;
+    right: .5rem;
+    top: 0;
+    padding: .2rem;
+    font-size: 1.4rem;  
+    color: white;
+    cursor: pointer;
+}
+.collapse #icon{
+    position: relative;
+    width: 2rem;
+    margin-left: 1rem;
+    margin-right: 4rem !important;
+    cursor: pointer;
+}
+
+.collapse .combo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile{
+    position: absolute;
+    height: 3rem;
+    width: 3.5rem;
+    right: 0px;
+}
+.profile img{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.Container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.containt1{
+    width: 64vw;
+    height: 100vh;
+    padding-top: 2.5rem;
+    color: white;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .containt1 {
+      width: 100vw !important;
+    }
+    .containt2{
+        display: none;
+    }
+}
+
+
+.containt1::-webkit-scrollbar {
+    display: none;
+  }
+  
+.containt2{
+    width: 36vw;
+    height: 100vh;
+    border-left: .1rem solid rgb(160, 134, 134);
+    color: white;
+    margin-top: .7rem;
+    overflow: scroll;
+    scrollbar-width: none;
+} 
+
+.containt2::-webkit-scrollbar {
+    display: none;
+  }
+
+.display{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.display .latest1{
+    padding-top: 1rem;
+    height: 14rem;
+    width: 16rem;
+    transition-duration: .2s;
+}
+.latest1:hover{
+    transform: scale(1.1);
+}
+
+.display #latest{
+    height: 15rem;
+    width: 16rem;
+    padding-top: 0rem;
+    margin: 0 1rem;
+}
+
+.display .latest1 img{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    font-family: cursive;
+    margin: .5rem;
+}
+
+.latest .release-row{
+   display: flex;
+   min-height: 6rem;
+   font-family: abril, Fatface;
+   margin-bottom: 1rem;
+}
+
+
+.latest .release-row .portion1{
+   width: 50%;
+   height: 100%;
+   display: flex;
+   margin-right: .6rem;
+}
+
+.portion1 .image{
+    position: relative;
+}
+.portion1 .image i{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 2rem;
+    opacity: 0;
+    transition-duration: .5s;
+}
+.portion2 .image{
+    position: relative;
+}
+.portion2 .image i{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 2rem;
+    opacity: 0;
+    transition-duration: .5s;
+}
+
+.image:hover i{
+    opacity: 1;
+}
+
+.image:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+.latest .release-row .portion2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.latest .release-row .portion1 .info{
+    width: 65%;
+    height: 100%;
+    margin-left: .4rem;
+}
+.latest .release-row .portion2 .info{
+    width: 65%;
+    height: 100%;
+    margin-left: .4rem;
+  }
+  
+.latest .release-row .portion1 .info .name{
+    height: 50%;
+    width: 100%;
+    padding-left: .3rem;
+    padding-top: 1rem;
+}
+
+.latest .release-row .portion2 .info .name{
+    min-height: 50%;
+    width: 100%;
+    padding-left: .3rem;
+    padding-top: 1rem;
+}
+
+.latest .release-row .portion1 .icons{
+    width: 14%;
+    text-align: center;
+   padding-top: 1.3rem;
+}
+
+.latest .release-row .portion2 .icons{
+    width: 14%;
+    text-align: center;
+   padding-top: 1.3rem;
+}
+
+.latest .release-row .portion1 .image{
+    height: 100%;
+    width: 6rem;
+}
+
+.latest .release-row .portion1 img{
+    height: 100%;
+    width: 100%;
+}
+.latest .release-row .portion2 .image{
+    height: 100%;
+    width: 6rem;
+}
+.latest .release-row .portion2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.Artists{
+    height: 9rem;
+    width: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    display: flex;
+    margin: 1rem 0px;
+}
+
+.Artists .ArtistsProfile{
+    margin-right: .7rem;
+}
+
+.Artists .ArtistsProfile .image {
+    height: 7rem;
+    width: 7rem;
+}
+.Artists .ArtistsProfile .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.Artists .ArtistsProfile .name{
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Abril Fatface;
+    padding-top: .3rem;
+}
+
+.cover{
+    display: flex;
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(19, 1, 36);
+}
+.musicType{
+    height: 9rem;
+    width: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    display: flex;
+}
+
+.musicType .music img{
+    height: 100%;
+    width: 7.5rem;
+    border-radius: 50%;
+    padding: 1.6rem 1rem;
+}
+#music img{
+    height: 7rem;
+    width: 6.5rem;
+    border-radius: 50%;
+    position: sticky;
+    margin: 1rem;
+}
+
+
+.LatestEnglish{
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.LatestEnglish .containers{
+    height: 100%;
+    width: 8rem;
+    margin-right: .8rem;
+}
+.LatestEnglish .containers .image{
+    height: 70%;
+    width: 100%;
+    margin-bottom: .4rem;
+}
+
+.containers .image img{
+    height: 100%;
+    width: 100%;
+}
+
+.LatestEnglish .containers .info{
+    /* height: 28%; */
+    width: 8rem;
+    font-family: Abril Fatface;
+    text-align: center;
+}
+.LatestEnglish .containers .info h6{
+    margin-bottom: 0px !important;
+}
+
+
+.containt2 .title{
+    margin-left: .5rem;
+}
+
+.containt2 .fav{
+    position: fixed;
+    display: flex;
+    width: 32vw;
+    z-index: 2;
+    background-color: rgb(22, 2, 30);
+    height: 4rem;
+}
+
+.containt2 .dropdown{
+    position: absolute;
+    right: 1rem;
+    top: .2rem;
+}
+
+.containt2 .dropdown .btn{
+    color: #0fbdb4;
+    background-color: rgb(22, 2, 30);
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: abril, Fatface;
+    border: none;
+}
+
+.containt2 .list-fav{
+  margin-top: 4rem; 
+}
+
+.list-fav .list-row{
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    margin: .5rem 0rem;
+    font-family: abril Fatface;
+    position: relative;
+}
+.list-fav .list-row .one{
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+    flex-shrink: 2;
+}
+.list-fav .list-row .two{
+    height: 6.5rem;
+    width: 6rem;
+    flex-shrink: 4;
+    cursor: pointer;
+}
+
+.list-fav .list-row .three{
+    min-height: 4rem;
+    width: 8rem;
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+    flex-shrink: 3;
+}
+.list-fav .list-row .four{
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+
+.list-fav .list-row .two img{
+    height: 100%;
+    width: 100%;
+}
+
+.list-row{
+    position: relative;
+}
+
+.two i{
+    position: absolute;
+    font-size: 2rem;
+    top: 35%;
+    left: 25%;
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.two:hover{
+    opacity: .7;
+}
+
+.two:hover i{
+    opacity: 1;
+}
+

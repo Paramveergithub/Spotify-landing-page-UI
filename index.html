@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./Music-Img/logo-icon.png">
+  <!-- ************bootstrap cdn-css************ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Spotify landing page UI</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a href="#" class="logo">
+        <img src="logo.png" alt="Spotify">
+      </a>
+      <a href="#" class="brand">Spotify</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Favourites</a>
+          </li>
+        </ul>
+        <div class="combo">
+          <div class="d-flex searchbar">
+            <form role="search">
+              <div class="magini"><i class="fa-solid fa-magnifying-glass"></i></div>
+
+              <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+
+              <div class="micro"><i id="microphone" class="fa-solid fa-microphone"></i></div>
+            </form>
+          </div>
+
+          <div id="icon">
+            <i class="fa-solid fa-bell"></i>
+          </div>
+
+          <div class="profile">
+            <a href="#"><img src="./Paramveer.jpg" alt=""></a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- **************Navbar End*************** -->
+
+  <main>
+    <div class="Container container-lg">
+      <div class="containt1">
+        <div class="display container-sm">
+          <div class="latest1">
+            <img src="./big_img/13.jpg" alt="">
+          </div>
+          <div id="latest" class="latest1">
+            <img src="./big_img/5.jpg" alt="">
+          </div>
+          <div class="latest1">
+            <img src="./big_img/15.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="heading">
+          <h2>Latest Release</h2>
+        </div>
+
+        <div class="latest">
+          <div class="release-row">
+            <div class="portion1">
+              <div class="image">
+                <img src="./big_img/8.jpg" alt="">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="info">
+                <div class="name">
+                  <h5>Sanak</h5>
+                </div>
+                <div class="date">
+                  <h5>jan 15, 2019</h5>
+                </div>
+              </div>
+
+              <div class="icons">
+                <div class="dots"><i class="fas fa-ellipsis-h"></i></div>
+                <div class="time">6:43</div>
+              </div>
+
+            </div>
+
+            <div class="portion2">
+              <div class="image">
+                <img src="./big_img/9.jpg" alt="">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="info">
+                <div class="name">
+                  <h5>Dilbar</h5>
+                </div>
+                <div class="date">
+                  <h5>Aug 11, 2018</h5>
+                </div>
+              </div>
+
+              <div class="icons">
+                <div class="dots"><i class="fas fa-ellipsis-h"></i></div>
+                <div class="time">4:48</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="release-row">
+            <div class="portion1">
+              <div class="image">
+                <img src="./big_img/10.jpg" alt="">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="info">
+                <div class="name">
+                  <h5>Luka Chuppi</h5>
+                </div>
+                <div class="date">
+                  <h5>May 01, 2018</h5>
+                </div>
+              </div>
+
+              <div class="icons">
+                <div class="dots"><i class="fas fa-ellipsis-h"></i></div>
+                <div class="time">6:48</div>
+              </div>
+
+            </div>
+
+            <div class="portion2">
+              <div class="image">
+                <img src="./big_img/11.jpg" alt="">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="info">
+                <div class="name">
+                  <h5>Lagdi Lahore di</h5>
+                </div>
+                <div class="date">
+                  <h5>Sep 15, 2023</h5>
+                </div>
+              </div>
+
+              <div class="icons">
+                <div class="dots"><i class="fas fa-ellipsis-h"></i></div>
+                <div class="time">5:48</div>
+              </div>
+            </div>
+          </div>
+          <div class="release-row">
+            <div class="portion1">
+              <div class="image">
+                <img src="./big_img/16.jpg" alt="">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="info">
+                <div class="name">
+                  <h5>Meri Zindgi</h5>
+                </div>
+                <div class="date">
+                  <h5>Feb 11, 2024</h5>
+                </div>
+              </div>
+
+              <div class="icons">
+                <div class="dots"><i class="fas fa-ellipsis-h"></i></div>
+                <div class="time">3:48</div>
+              </div>
+
+            </div>
+
+            <div class="portion2">
+              <div class="image">
+                <img src="./big_img/7.jpg" alt="">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="info">
+                <div class="name">
+                  <h5>Tamasha</h5>
+                </div>
+                <div class="date">
+                  <h5>Oct 11, 2018</h5>
+                </div>
+              </div>
+
+              <div class="icons">
+                <div class="dots"><i class="fas fa-ellipsis-h"></i></div>
+                <div class="time">4:55</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="heading">
+          <h2>Popular Artists</h2>
+        </div>
+
+        <div class="Artists">
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/neha.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Neha Kakkar</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/monali-thakur.webp" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Monali thakur</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/Shreya-Ghoshal.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Shreya Ghoshal</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/tulsi kumar.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Tulsi kumar</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/Alka-Yagnik.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Alka Yagnik</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/lata mangeshkar.webp" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Lata mangeshkar</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/dhvani.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Dhvani</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/akhil.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Akhil Pasreja</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/alan.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Alan Walker</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/arjit.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Arijit Singh</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/atif.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Atif Aslam</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/Diljit_Dosanjh.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Diljit Dosanjh</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/guru.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Guru Randhawa</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/honey.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Honey Singh</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/jubin Nautiyal.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Jubin Nautiyal</p>
+            </div>
+          </div>
+
+          <div class="ArtistsProfile">
+            <div class="image">
+              <a href="#"><img src="./big_img/justin-bieber-lede.jpg" alt=""></a>
+            </div>
+
+            <div class="name">
+              <p>Justin Bieber</p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="cover">
+          <div id="music">
+            <a href="#"><img src="./Music-Img/Music.jpg" alt=""></a>
+          </div>
+
+          <div class="musicType">
+
+            <div class="music">
+              <a href="#"><img src="./Music-Img/love.png" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/Romantic.jpg" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/chill.jpg" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/melody.jpg" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/old.PNG" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/retro.jpg" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/bhakti.jpg" alt=""></a>
+            </div>
+
+            <div class="music">
+              <a href="#"><img src="./Music-Img/love.png" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/Romantic.jpg" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/chill.jpg" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/melody.jpg" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/old.PNG" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/retro.jpg" alt=""></a>
+            </div>
+            <div class="music">
+              <a href="#"><img src="./Music-Img/bhakti.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="heading">
+          <h2>Latest English</h2>
+        </div>
+
+        <div class="LatestEnglish">
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/1.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>On My Way</h6>
+              <h6> Aug 12, 2017</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/2.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Faded</h6>
+              <h6> May 22, 2018</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/3.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Stairway to Heaven</h6>
+              <h6> Sep 12, 2020</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/4.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Eye of the Tiger</h6>
+              <h6> Aug 15, 2022</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/5.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Hips Don't Lie</h6>
+              <h6>Oct 12, 2018</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/6.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Space Oddity</h6>
+              <h6>Sep 12, 2021</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./small_img/20.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Rolling in the Deep</h6>
+              <h6>Oct 02, 2022</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./small_img/1.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Stayin's Alive</h6>
+              <h6> Aug 12, 2023</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./small_img/7.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Country Roads</h6>
+              <h6> Aug 18, 2023</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./small_img/5.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Hey Jude</h6>
+              <h6> Feb 12, 2023</h6>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="heading">
+          <h2>Latest Hindi</h2>
+        </div>
+
+        <div class="LatestEnglish">
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/7.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Tamasha</h6>
+              <h6> Oct 12, 2023</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/8.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Sanak</h6>
+              <h6> May 31, 2018</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/9.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Dilbar</h6>
+              <h6> Nov 12, 2020</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/10.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Luka Chuppi</h6>
+              <h6> Feb 15, 2022</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/11.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Lagdi Lahore di</h6>
+              <h6>Oct 12, 2018</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./big_img/12.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Space Oddity</h6>
+              <h6>Sep 12, 2021</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./small_img/13.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Baarishein</h6>
+              <h6>Oct 02, 2022</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./small_img/14.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Vaste</h6>
+              <h6> Aug 12, 2023</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./small_img/12.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Meri Zindgi</h6>
+              <h6> Aug 18, 2023</h6>
+            </div>
+          </div>
+
+          <div class="containers">
+            <div class="image">
+              <a href="#"><img src="./small_img/20.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <h6>Hey Jude</h6>
+              <h6> Feb 12, 2023</h6>
+            </div>
+          </div>
+        </div>
+        <div class="space" style="min-height: 6rem;"></div>
+      </div>
+
+      <div class="containt2 container">
+        <div class="fav">
+          <div class="title">
+            <h2>Queue</h2>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Queue
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="list-fav">
+          <div class="list-row">
+            <div class="one">
+              <h4>01</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/1.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Mirage Else</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>02</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/2.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Bohemian Rhapsody</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>03</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/3.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Careless Whisper</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>04</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/4.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Hotel California</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>05</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/5.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>My Heart Will Go On</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>06</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/6.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Hey Jude</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>07</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/7.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Somebody I Used To Know</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>08</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/8.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Stayin’ Alive</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>09</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/9.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5> Hips Don’t Lie</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>10</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/10.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5> Hips Don’t Lie</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>11</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/11.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Rolling in the Deep</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>12</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/12.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Can’t Help Falling in Love</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>13</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/13.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Stairway to Heaven</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>14</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/14.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Country Roads</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>15</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/15.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Space Oddity</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>16</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/16.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Eye of the Tiger</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>17</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/17.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Baby One More Time</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>18</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/18.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Stand By Me</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>19</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/19.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>We Didn’t Start The Fire</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="list-row">
+            <div class="one">
+              <h4>20</h4>
+            </div>
+            <div class="two">
+              <img src="./small_img/20.jpg" alt="">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="three">
+              <h5>Rap God</h5>
+            </div>
+            <div class="four">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div style="min-height: 5rem;"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://kit.fontawesome.com/5ca8c5828f.js" crossorigin="anonymous"></script>
+  <!-- **************bootstrap cdn-js**************** -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
